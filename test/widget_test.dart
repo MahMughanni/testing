@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:testing/main.dart';
 
 main() {
-  testWidgets('Test Login Widget', (tester) async {
+  testWidgets('Test Login Widgets', (tester) async {
     await tester.pumpWidget(const MyApp());
     var textField = find.byType(TextField);
     expect(textField, findsWidgets);
