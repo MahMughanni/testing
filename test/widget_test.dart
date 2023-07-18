@@ -9,7 +9,7 @@ main() {
     expect(textField, findsWidgets);
     await tester.enterText(find.byKey(const Key('emailKey')), 'Mahmoud');
     // await tester.enterText(find.byKey(const Key('emaialKey')), 'Mahmoud');
-    await tester.enterText(find.byKey(const Key('passwordKey')), '123456mA@');
+    await tester.enterText(find.byKey(const Key('passwordKey')), '1234A@');
 
     var loginBtn = find.byType(ElevatedButton);
     expect(loginBtn, findsOneWidget);
