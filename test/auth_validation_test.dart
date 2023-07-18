@@ -65,7 +65,5 @@ void main() {
       String password = Validation.passWordValidation('Abc12345');
       expect(password, 'Password must contain at least one special character.');
     });
-
-
   });
 }
